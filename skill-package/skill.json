@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Seattle Cab Rider is skill for book ride.",
+          "examplePhrases": [
+            "Alexa open cab rider",
+            "Alexa launch cab rider"
+          ],
+          "name": "PIN Tester",
+          "description": "Seattle Cab Rider is skill for book ride."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "NA",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::authenticate:2:mandatory"
+      },
+      {
+        "name": "alexa::person_id:read"
+      }
+    ]
+  }
+}
